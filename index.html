@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Add your Font Awesome Kit here -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="box-add">
+        <h1 class="title">todo list</h1>
+        <input class="todo-input" type="text" placeholder="Add a new task..." />
+        <button class="btn-add">add</button>
+      </div>
+      <div class="box-list">
+        <h3 class="list-title">Your tasks:</h3>
+        <p class="error-info"></p>
+        <ul></ul>
+      </div>
+    </div>
+    <div class="bgUnderPopup"></div>
+    <div class="popup">
+      <h3>Edit task:</h3>
+      <div class="popup-body">
+        <p class="popup-info"></p>
+        <input
+          type="text"
+          class="popup-input"
+          placeholder="Enter a new task text..."
+        />
+        <button class="popup-btn cancel">Cancel</button>
+        <button class="popup-btn accept">Accept</button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
